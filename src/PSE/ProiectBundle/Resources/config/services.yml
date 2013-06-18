@@ -1,0 +1,7 @@
+parameters:
+#    pse_proiect.example.class: PSE\ProiectBundle\Example
+
+services:
+#    pse_proiect.example:
+#        class: %pse_proiect.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

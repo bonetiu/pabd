@@ -20,6 +20,9 @@ class AppKernel extends Kernel
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new boldizsarzoltan\Bundle\boldizsarzoltanBundle(),
+            new PSE\ProiectBundle\PSEProiectBundle(),
+            new PSE\MailValidatorBundle\PSEMailValidatorBundle(),
+
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

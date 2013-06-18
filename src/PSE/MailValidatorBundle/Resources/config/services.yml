@@ -1,0 +1,7 @@
+parameters:
+#    pse_mail_validator.example.class: PSE\MailValidatorBundle\Example
+
+services:
+#    pse_mail_validator.example:
+#        class: %pse_mail_validator.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

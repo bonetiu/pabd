@@ -1,0 +1,3 @@
+pse_proiect_homepage:
+    pattern:  /time/{name}
+    defaults: { _controller: PSEProiectBundle:TimeGet:index }

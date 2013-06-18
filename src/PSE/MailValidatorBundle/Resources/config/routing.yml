@@ -1,0 +1,3 @@
+pse_mail_validator_homepage:
+    pattern:  /validate/{email}
+    defaults: { _controller: PSEMailValidatorBundle:MailValidate:index }
